@@ -1,0 +1,5 @@
+{
+  "platformName": "accessanalysis",
+  "domain": "lzu.abc.chinaedu.net",
+  "proxy": "http://172.16.4.37:8090"
+}

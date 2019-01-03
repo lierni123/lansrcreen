@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+      name="viewport"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="full-screen" content="yes" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <script>
+      // var cxt = {
+      //   accountType: '1',
+      //   address: '',
+      //   aefsUploadPath: 'http://172.16.19.109:8090/webapps-file/fileservice',
+      //   appId: '',
+      //   bodySignFilter: "()!'~",
+      //   collegeName: '兰大访问分析',
+      //   displayNames: {},
+      //   eduToken: '9ObUlnF',
+      //   enablePiwik: '0',
+      //   fshost: 'http://172.16.19.109:8090/webapps-file',
+      //   lastLoginTime: '1544505453000',
+      //   loginCount: '0',
+      //   loopTime: 0,
+      //   minJs: '.js',
+      //   mobile: '',
+      //   piwikSiteId: '',
+      //   piwikUrl: '',
+      //   platforms: '[]',
+      //   plogo: 'http://static.carp.com:8090/app/images/login/logo.png',
+      //   pname: '访问分析平台',
+      //   postCode: '',
+      //   redirect_uri: '',
+      //   schoolName: '兰大访问分析',
+      //   staticName: 'accessanalysis',
+      //   staticWebHost: 'http://static.carp.com:8090',
+      //   stationId: '0',
+      //   systemMsg: '',
+      //   tenantId: 'mc3ve6uI1hyO2bf1O+MWHg==',
+      //   theme: '0',
+      //   userId: '1619531350251929605',
+      //   userName: 'manager',
+      //   version: '',
+      // }
+
+      // var cxt = {
+      //   accountType: '0',
+      //   address: '',
+      //   aefsUploadPath: 'http://172.16.19.25:8090/webapps-file/fileservice',
+      //   bodySignFilter: "()!'~",
+      //   collegeName: '101排课测试环境',
+      //   displayNames: {},
+      //   eduToken: '3OceVmF',
+      //   enablePiwik: '0',
+      //   fshost: 'http://172.16.19.25:8090/webapps-file',
+      //   lastLoginTime: '1531296128000',
+      //   loginCount: '0',
+      //   loopTime: 0,
+      //   minJs: '.js',
+      //   mobile: '',
+      //   piwikSiteId: '157',
+      //   piwikUrl: '//piwik.chinaedu.net/',
+      //   platforms:
+      //     '[{"name":"101大管理员后台","url":"http://paike.com:8090/schooladmin/change?p=1"}]',
+      //   plogo: 'http://static.chinaedu.com:8090/app/images/login/logo.png',
+      //   pname: '101智慧课堂-您身边的智慧课堂－打造智慧教育生态圈',
+      //   postCode: '',
+      //   schoolName: '101排课测试环境',
+      //   staticName: 'schooladmin',
+      //   staticWebHost: 'http://static.chinaedu.com:8090',
+      //   stationId: '0',
+      //   systemMsg: '',
+      //   theme: '0',
+      //   userId: '1605680368728408064',
+      //   userName: 'admin',
+      //   version: '',
+      // }
+
+      // var cxt = {
+      //   accountType: '1',
+      //   address: '',
+      //   aefsUploadPath: 'http://172.16.19.109:8090/webapps-file/fileservice',
+      //   appId: '',
+      //   bodySignFilter: "()!'~",
+      //   collegeName: '上海企培推荐',
+      //   displayNames: {},
+      //   eduToken: 'iHBGUmF',
+      //   enablePiwik: '0',
+      //   fshost: 'http://172.16.19.109:8090/webapps-file',
+      //   lastLoginTime: '1531136971000',
+      //   loginCount: '0',
+      //   loopTime: 0,
+      //   minJs: '.js',
+      //   mobile: '',
+      //   piwikSiteId: '',
+      //   piwikUrl: '',
+      //   platforms:
+      //     '[{"name":"大数据管理后台","url":"http://bdanalysis.com:8090/bdanalysis/change?p=0&pid=1"},{"name":"智能推荐管理平台","url":"http://bdanalysis.com:8090/bdanalysis/change?p=1&pid=7"},{"name":"智能推荐","url":"http://bdanalysis.com:8090/bdanalysis/change?p=1&pid=6"},{"name":"智能推荐","url":"http://bdanalysis.com:8090/bdanalysis/change?p=6&pid=6"}]',
+      //   plogo: 'http://static.carp.com:8090/app/images/login/logo.png',
+      //   pname: '大数据管理平台',
+      //   postCode: '',
+      //   redirect_uri: '',
+      //   schoolName: '跨业务平台研发租户',
+      //   staticName: 'bdanalysis',
+      //   staticWebHost: 'http://static.carp.com:8090',
+      //   stationId: '0',
+      //   systemMsg: '',
+      //   tenantId: 'V5f8TjQwyI+JtxC1foX2eA==',
+      //   theme: '0',
+      //   userId: '1605513480660582400',
+      //   userName: 'manager',
+      //   version: '',
+      // }
+
+      var cxt = {
+        accountType: '1',
+        address: '',
+        aefsUploadPath: 'http://filedemo.abc.chinaedu.net:7002/fileservice',
+        appId: '',
+        bodySignFilter: "()!'~",
+        collegeName: '课程推荐演示租户',
+        displayNames: {},
+        eduToken: 'p1XEYmF',
+        enablePiwik: '0',
+        fshost: 'http://filedemo.abc.chinaedu.net:7002',
+        lastLoginTime: '1531136959000',
+        loginCount: '0',
+        loopTime: 0,
+        minJs: '.js',
+        mobile: '',
+        piwikSiteId: '',
+        piwikUrl: '',
+        platforms:
+          '[{"name":"模型训练管理平台","url":"http://carprec.abc.chinaedu.net:7001/intelrec/change?p=1&pid=7"}]',
+        plogo: 'http://static.abc.chinaedu.net:7001/app/images/login/logo.png',
+        pname: '智能推荐管理平台',
+        postCode: '',
+        redirect_uri: '',
+        schoolName: '课程推荐演示租户',
+        staticName: 'carprec',
+        staticWebHost: 'http://static.abc.chinaedu.net:7001',
+        stationId: '0',
+        systemMsg: '',
+        tenantId: 'V5f8TjQwyI+JtxC1foX2eA==',
+        theme: '0',
+        userId: '2',
+        userName: 'admin',
+        version: '',
+      }
+      document.title = cxt.pname
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>
